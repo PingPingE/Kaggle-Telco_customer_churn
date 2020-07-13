@@ -1,6 +1,6 @@
-# 통신사 고객의 가입 해지 여부 예측 모델
+<strong>*만약 위 파일의 로딩에 실패한다면-> https://nbviewer.jupyter.org/github/PingPingE/Telco-customer-churn/blob/master/telco-customer-churn.ipynb </strong>
 
-<strong>*만약 계속해서 위 파일의 로딩에 실패한다면-> https://nbviewer.jupyter.org/github/PingPingE/Telco-customer-churn/blob/master/telco-customer-churn.ipynb </strong>
+# 통신사 고객의 가입 해지 여부 예측 모델
 
 ## 데이터
 - gender(성별)<br>
