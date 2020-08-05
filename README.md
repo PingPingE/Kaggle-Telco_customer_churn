@@ -2,13 +2,13 @@
 
 # 통신사 고객의 가입 해지 여부 예측 모델
 
-## 현재 진행 상황
+## 현재 진행 상황 (60%)
 - 데이터 확인
 - 전처리
     - 결측값 처리 (TotalCharges의 결측값 -> MonthlyCharges*Contract)
     - Binning
-            - TotalCharges
-            - MonthlyCharges
+        - TotalCharges
+        - MonthlyCharges
     - 타입변환
     
 - 파생컬럼 생성
