@@ -23,7 +23,7 @@
     - Under sampling(random) vs Over sampling(random) vs Over sampling(smote)
     - EDA를 토대로 Feature selection (진행 중)
     - ML모델 적용(LightGBM,Logistic regression,SVM 등) (진행 중)
-    - 평가(진행 중)
+    - 평가 (진행 중)
         - cross validation
         - ROC curve
         - AUC
