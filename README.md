@@ -10,10 +10,12 @@
         - TotalCharges
         - MonthlyCharges
     - 타입변환
+    - 이상치 제거(telco_customer-churn_revision에서)
+        - TotalCharges는 상위 25퍼 이내이면서 MonthlyCharges는 평균에 못미치는 데이터 삭제
     
 - 파생컬럼 생성
     - 백업, 보안, 다양한 서비스 이용 여부 등으로 디지털 친화도 측정 -> familiar_with_ digital
-    - 백업, 보안, 다양한 서비스 이용 여부 등의 9개 컬럼을 1차원으로 축소(PCA) -> familiar_with_digital_pca (telco_customer-churn_revision에서 )
+    - 백업, 보안, 다양한 서비스 이용 여부 등의 9개 컬럼을 1차원으로 축소(PCA) -> familiar_with_digital_pca (telco_customer-churn_revision에서)
 
 - EDA
     - 각 컬럼과 Churn컬럼(결과값)의 상관관계 분석
