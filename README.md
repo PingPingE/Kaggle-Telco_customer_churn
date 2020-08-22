@@ -11,11 +11,11 @@
         - MonthlyCharges
     - 타입변환
     - 이상치 제거(telco_customer-churn_revision에서)
-        - TotalCharges는 상위 25퍼 이내이면서 MonthlyCharges는 평균에 못미치는 데이터 삭제
+        - <strong>TotalCharges는 상위 25퍼 이내이면서 MonthlyCharges는 평균에 못미치는 데이터 삭제</strong>
     
 - 파생컬럼 생성
     - 백업, 보안, 다양한 서비스 이용 여부 등으로 디지털 친화도 측정 -> familiar_with_ digital
-    - 백업, 보안, 다양한 서비스 이용 여부 등의 9개 컬럼을 1차원으로 축소(PCA) -> familiar_with_digital_pca (telco_customer-churn_revision에서)
+    - <strong>백업, 보안, 다양한 서비스 이용 여부 등의 9개 컬럼을 1차원으로 축소(PCA) -> familiar_with_digital_pca (telco_customer-churn_revision에서)</strong>
 
 - EDA
     - 각 컬럼과 Churn컬럼(결과값)의 상관관계 분석
@@ -24,7 +24,7 @@
 - 모델 적용 및 평가
     - One-hot encoding vs Label encoding
     - Under sampling(random) vs Over sampling(random) vs Over sampling(smote)
-        * train/test 분리 전에 resampling을 했기에 해당 부분 telco_customer-churn_revision에서 수정
+        * <strong> train/test 분리 전에 resampling을 했기에 해당 부분 telco_customer-churn_revision에서 수정</strong>
     
     - EDA를 토대로 Feature selection (진행 중)
     - ML모델 적용(LightGBM,Logistic regression,SVM 등) (진행 중)
