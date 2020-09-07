@@ -1,9 +1,9 @@
+# 통신사 고객의 가입 해지 여부 예측 모델
+
 *만약 위 파일의 로딩에 실패한다면
 
 - [original](https://nbviewer.jupyter.org/github/PingPingE/Kaggle-Telco_customer_churn/blob/master/telco-customer-churn.ipynb)
 - [revision](https://nbviewer.jupyter.org/github/PingPingE/Kaggle-Telco_customer_churn/blob/master/telco-customer-churn_revision.ipynb)
-
-# 통신사 고객의 가입 해지 여부 예측 모델
 
 ## 현재 진행 상황 (60%)
 - 데이터 확인
